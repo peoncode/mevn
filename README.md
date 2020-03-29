@@ -1,6 +1,6 @@
-# MEVN (MongoDB-Express-Vue-Node) App stack
+## MEVN (MongoDB-Express-Vue-Node) App stack
 
-## How to setup your MEVN (MongoDb-Express-Vue-Node) Stack
+### How to setup your MEVN (MongoDb-Express-Vue-Node) Stack
 
 ### Prerequisites
 
@@ -43,17 +43,18 @@ app.listen(port, () => {
 1. Install vue-cli:  `npm install @vue/cli`
 2. Use vue-cli:   `vue create client`
 3. Manually select features
-  - Select Router & Linter/Formatter
-  - ESLint + Airbnb config
-  - Select "Lint on save" & "Lint and fix on commit"
-  - In package.json
-  - Save this as a preset for future projects?  N
+	- Select Router & Linter/Formatter
+	- ESLint + Airbnb config
+	- Select "Lint on save" & "Lint and fix on commit"
+	- In package.json
+	- Save this as a preset for future projects?  N
 4. `cd` into `client` folder inside your app
 5. Start Vue client:   `npm run serve`
 6. Browse to URL:  http://localhost:8080/
 
 
 ### Install & Setup MongoDB
+
 1. Install MongoDB:  `npm install mongodb`
 2. Sign up for MongoDB Atlas (http://bit.ly/MDB_Atlas)
 3. Create cluster, connection user & password
@@ -66,5 +67,6 @@ const client = new MongoClient(uri, { useUnifiedTopology: true });
 
 
 ## References:
-https://vegibit.com/vue-js-express-tutorial/
-https://www.mongodb.com/blog/post/quick-start-nodejs-mongodb--how-to-get-connected-to-your-database
+
+- https://vegibit.com/vue-js-express-tutorial/
+- https://www.mongodb.com/blog/post/quick-start-nodejs-mongodb--how-to-get-connected-to-your-database
