@@ -13,7 +13,7 @@
 3. Initialize project:   `npm init -y`
 4. Install dependencies:   `npm install express morgan cors body-parser`
 
-### Setup Express
+### Setup Express (the REST API server)
 
 1. Inside app folder, create a file `index.js` and paste contents:
 ```
@@ -38,7 +38,7 @@ app.listen(port, () => {
 2. Start Express server:  `node index.js`
 3. Browse to URL:  http://localhost:4000
 
-### Install & Setup Vue client
+### Install & Setup Vue client (the Front-end Client)
 
 1. Install vue-cli:  `npm install @vue/cli`
 2. Use vue-cli:   `vue create client`
@@ -53,7 +53,7 @@ app.listen(port, () => {
 6. Browse to URL:  http://localhost:8080/
 
 
-### Install & Setup MongoDB
+### Install & Setup MongoDB Atlas (the no-sql cloud database)
 
 1. Install MongoDB:  `npm install mongodb`
 2. Sign up for MongoDB Atlas (http://bit.ly/MDB_Atlas)
